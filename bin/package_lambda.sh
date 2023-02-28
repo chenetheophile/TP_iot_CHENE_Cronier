@@ -1,3 +1,4 @@
+#!/bin/bash
 rm lambda_function_payload.zip
 mkdir lambda_package
 pip install -r ac_control_lambda/requirements.txt --target lambda_package
