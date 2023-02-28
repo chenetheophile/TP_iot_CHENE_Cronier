@@ -5,7 +5,7 @@
 Install [**Terraform**](https://www.terraform.io/downloads)
 
 Have an AWS User with the following policies:
-
+a
 * IAMFullAccess
 * AmazonS3FullAccess
 * AmazonDynamoDBFullAccess
