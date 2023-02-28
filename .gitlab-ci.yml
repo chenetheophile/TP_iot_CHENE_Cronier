@@ -9,14 +9,14 @@ pytest:
   stage: test
   script:
     - pytest ac_control_lambda/tests -vv
-job_package:
+package:
   stage: package
   script:
     - ./bin/package_lambda.sh
   artifacts:
     paths:
       - ac_control_lambda.zip
-job_deploy:
+deploy:
   stage: deploy
   script:
     - ./bin/deploy_lambda.sh
