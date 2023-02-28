@@ -1,0 +1,11 @@
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup
+/terraform/.terraform.lock.hcl
+/venv/
+/files/
+!terraform/files/empty_package.zip
+/terraform/.terraform/
+/.idea/
+/lambda_function_payload.zip
+ac_control_lambda/src/__pycache__/
+/.pytest_cache/
